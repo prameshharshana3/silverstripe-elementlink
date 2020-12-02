@@ -2,7 +2,7 @@
 	"name": "silverstripers/silverstripe-elementlink",
 	"description": "Adds a element link option to TinyMCE's Insert Link dropdown for creating/editing links using native SilverStripe 4 modals",
 	"type": "silverstripe-vendormodule",
-	"homepage": "https://github.com/silverstripers/silverstripe-elementlink",
+	"homepage": "https://github.com/prameshharshana3/silverstripe-elementlink",
 	"keywords": [
 		"silverstripe",
 		"cms",
@@ -21,7 +21,7 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/silverstripers/silverstripe-elementlink/issues"
+		"issues": "https://github.com/prameshharshana3/silverstripe-elementlink/issues"
 	},
 	"require": {
 		"silverstripe/cms": "^4.4"
