@@ -1,0 +1,5 @@
+en:
+  Silverstripers\ElementLink\Forms\EditorElementLinkFormFactory:
+    PHONE: 'Numéro de element'
+    LINKDESCR: 'Description du lien'
+    LINKTEXT: 'Texte du lien'

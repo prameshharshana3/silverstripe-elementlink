@@ -1,0 +1,42 @@
+{
+  "name": "silverstripe-elementlink",
+  "version": "2.1.0",
+  "description": "SilverStripe PhoneLink",
+  "scripts": {
+    "build": "yarn && SET NODE_ENV=production webpack -p --bail --progress",
+    "dev": "SET NODE_ENV=development webpack --progress",
+    "watch": "node ./node_modules/webpack/bin/webpack.js --config webpack.config.js --watch",
+    "css": "WEBPACK_CHILD=css npm run build",
+    "lint": "eslint client/src && sass-lint -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/silverstripers/silverstripe-elementlink.git"
+  },
+  "keywords": [
+    "silverstripe",
+    "tinymce",
+    "cms"
+  ],
+  "author": "Fireband Holdings Ltd",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "babel-loader": "^7.0.0"
+  },
+  "devDependencies": {
+    "@silverstripe/eslint-config": "0.0.5",
+    "@silverstripe/webpack-config": "^1.1.0"
+  },
+  "resolutions": {
+    "eslint": "^4.6.1"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  }
+}

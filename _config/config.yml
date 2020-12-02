@@ -1,0 +1,11 @@
+---
+Name: elementlinkmodule
+After:
+  - '#cmsmodals'
+---
+SilverStripe\Admin\ModalController:
+  extensions:
+    - Silverstripers\ElementLink\Forms\ElementLinkModalExtension
+SilverStripe\Admin\LeftAndMain:
+  extensions:
+    - Silverstripers\ElementLink\Extensions\LeftAndMainExtension
